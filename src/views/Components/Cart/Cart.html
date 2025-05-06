@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <title>Giỏ Hàng - Coffee SGU</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        /* Additional Customization */
+        .cart-container {
+            margin-top: 50px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .product-image {
+            max-width: 100px;
+            border-radius: 5px;
+        }
+        .btn-continue-shopping {
+            border-radius: 20px;
+            font-size: 14px;
+            background-color: rgb(133, 132, 129);
+            color: black;
+        }
+        .btn-continue-shopping:hover{
+            background-color: #353534;
+            color: white;
+            text-decoration: none;
+        }
+        .btn-payment{
+            border-radius: 20px;
+            font-size: 14px;
+            background-color: rgb(231, 179, 68);
+            color: black;
+        }
+        .btn-payment:hover {
+            background-color: #b88b6f;
+            color: #fff;
+            text-decoration: none;
+        }
+        .price-text {
+            font-size: 16px;
+        }
+        .total-price-text {
+            font-size: 20px;
+            font-weight: bold;
+            color:rgb(231, 179, 68);
+        }
+        .table-bordered tbody tr td{
+            border: none;
+        }
+        .col-quantity {
+            width: 10%; /* Đặt cột số lượng ngắn lại */
+        }
+        .col-price {
+            width: 20%; /* Đặt cột đơn giá dài hơn */
+        }
+        .quantity-box {
+            border: 1px solid #ddd; /* Viền nhẹ */
+            border-radius: 15px; /* Bo tròn góc */
+            padding: 5px 10px; /* Khoảng cách bên trong */
+            text-align: center; /* Căn giữa nội dung */
+            width: 100%;
+            background-color: #ffffff; /* Nền nhẹ */
+        }
+    </style>
+</head>
+<body>
+    <div class="container cart-container">
+        <table class="table table-bordered align-middle">
+            <thead class="table-light text-center">
+                <tr>
+                    <th>Hình ảnh</th>
+                    <th>Thông tin sản phẩm</th>
+                    <th class="col-price">Đơn giá</th>
+                    <th class="col-quantity">Số lượng</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text-center">
+                    <td>
+                        <img src="C:\xampp\htdocs\WebAdvanced\Web_Advanced\src\views\layout\assets\images\logo-auth.jpg" alt="Cà phê Trứng" class="product-image">
+                    </td>
+                    <td>
+                        <div>
+                            <span>Cà phê Trứng</span>
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn btn-sm">Xóa</button>
+                        </div>
+                    </td>
+                    <td class="price-text">50,000₫</td>
+                    <td>
+                        <div class="quantity-box">
+                            <span >6</span>
+                        </div>
+                    </td>
+                    <td class="price-text">300,000₫</td>
+                </tr>
+                <!-- Add more products here as necessary -->
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-between align-items-center mt-4">
+            <button class="btn btn-primary btn-continue-shopping">Tiếp tục mua hàng</button>
+            <div class="d-flex align-items-center">
+                <span class="me-2">Tổng tiền thanh toán:</span>
+                <span class="total-price-text me-3">300.000₫</span>
+                <button class="btn btn-payment">Tiến hành thanh toán</button>
+            </div>
+        </div>        
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap

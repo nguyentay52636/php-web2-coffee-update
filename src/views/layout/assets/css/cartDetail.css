@@ -1,0 +1,175 @@
+
+
+.coffeeHavenBox {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.beanSnap {
+    max-width: 100%;
+    height: auto;
+}
+
+.brewMasterTitle {
+
+    font-weight: bold;
+    color: #333;
+    padding: 10px 0 ;;
+}
+
+.starBrew i{
+    color: #f1c40f !important;
+}
+.starBrew span { 
+    color: #f1c40f;
+    font-size: 18px;
+    font-weight: 500;
+}
+.flavorTwist {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    background-color: #fff;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.flavorTwist.active, .flavorTwist:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.cupCounter {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.cupCounter button {
+    border: none;
+    background-color: #f5f5f5;
+    padding: 5px 15px;
+    color :#000 !important;
+    font-size: 18px;
+}
+
+.cupCounter input {
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+.coffeeTabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.tabSip {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #666;
+}
+
+.tabSip.active {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+.freshBrewPrice {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.oldBrewPrice {
+    font-size: 18px;
+    color: #999;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.cartRoast {
+    background-color: rgb(231, 180, 90);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cartRoast:hover {
+    background-color: #555;
+}
+
+.wishSip {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 6px 8px; 
+    font-size: 18px;
+    background-color: #fff;
+}
+
+.wishSip i {
+    color: #e74c3c;
+    /* background-color: #e74c3c; */
+}
+
+.deliveryPerk i{
+    color: #666 !important;
+    font-size: 16px;
+}
+.deliveryPerk {
+    color: #666 !important;
+    font-size: 16px;
+}
+.container-detail-product-div {
+    display: flex;
+    justify-content: center;
+
+    /* background: aliceblue; */
+
+}
+.row.coffeeHavenBox {
+    box-shadow: 
+    rgba(0, 0, 0, 0.2) 10px 0px 20px,  /* Bóng bên phải */
+    rgba(0, 0, 0, 0.2) -10px 0px 20px, /* Bóng bên trái */
+    rgba(0, 0, 0, 0.2) 0px 10px 20px,  /* Bóng phía dưới */
+    rgba(0, 0, 0, 0.2) 0px -10px 20px; /* Bóng phía trên */
+
+    flex-wrap: nowrap !important;
+    padding: 100px 60px;
+}
+.div-left-image-details{
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+border-radius: 20px;
+height: 80%;
+padding: 60px 0;
+}
+.div-left-image-details img { 
+    width: 70%;
+    margin-bottom: 120px;
+    height: auto;
+}
+.col-md-6.text-center {
+    justify-content: center;
+    display: flex
+;
+}
+.description.mb-4 p{
+color: #000;
+font-size: 16px;
+font-weight: 300;
+}
+.container-div-child-detail-product {
+    padding: 300px 0 180px 0;
+}
